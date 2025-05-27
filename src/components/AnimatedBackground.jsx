@@ -6,36 +6,29 @@ export default function AnimatedBackground() {
     <div className="animated-background">
     <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
     <defs>
-  <radialGradient id="Gradient1" cx="50%" cy="50%" fx="0.441602%" fy="50%" r=".5">
-    <animate attributeName="fx" dur="30s" values="0%;3%;0%" repeatCount="indefinite" />
-    <stop offset="0%" stop-color="rgba(255, 229, 202, 1)" />
-    <stop offset="100%" stop-color="rgba(255, 229, 202, 0)" />
+ 
+    <radialGradient id="Gradient1" cx="50%" cy="50%" fx="0.441602%" fy="50%" r=".5">
+    <stop offset="0%" stop-color="rgba(67, 0, 255, 0.9)" />
+    <stop offset="100%" stop-color="rgba(67, 0, 255, 0)" />
   </radialGradient>
 
-  <radialGradient id="Gradient2" cx="50%" cy="50%" fx="2.68147%" fy="50%" r=".5">
-    <animate attributeName="fx" dur="28s" values="0%;3%;0%" repeatCount="indefinite" />
-    <stop offset="0%" stop-color="rgba(255, 245, 228, 1)" />
-    <stop offset="100%" stop-color="rgba(255, 245, 228, 0)" />
+  
+  <radialGradient id="Gradient2" cx="50%" cy="50%" fx="0.441602%" fy="50%" r=".5">
+    <stop offset="0%" stop-color="rgba(0, 101, 248, 0.8)" />
+    <stop offset="100%" stop-color="rgba(0, 101, 248, 0)" />
   </radialGradient>
 
-  <radialGradient id="Gradient3" cx="50%" cy="50%" fx="0.836536%" fy="50%" r=".5">
-    <animate attributeName="fx" dur="26s" values="0%;3%;0%" repeatCount="indefinite" />
-    <stop offset="0%" stop-color="rgba(255, 220, 220, 1)" />
-    <stop offset="100%" stop-color="rgba(255, 220, 220, 0)" />
+  
+  <radialGradient id="Gradient3" cx="50%" cy="50%" fx="0.441602%" fy="50%" r=".5">
+    <stop offset="0%" stop-color="rgba(255, 255, 255, 0.25)" />
+    <stop offset="100%" stop-color="rgba(255, 255, 255, 0)" />
   </radialGradient>
 
-  <radialGradient id="Gradient4" cx="50%" cy="50%" fx="0.981338%" fy="50%" r=".5">
-    <animate attributeName="fx" dur="25s" values="0%;5%;0%" repeatCount="indefinite" />
-    <stop offset="0%" stop-color="rgba(242, 158, 133, 1)" />
-    <stop offset="100%" stop-color="rgba(242, 158, 133, 0)" />
+  <radialGradient id="Gradient4" cx="50%" cy="50%" fx="0.441602%" fy="50%" r=".5">
+    <stop offset="0%" stop-color="rgba(0, 255, 222, 0.6)" />
+    <stop offset="100%" stop-color="rgba(0, 255, 222, 0)" />
   </radialGradient>
 </defs>
-
-
-
-
-
-
 
 
    {/* <defs>
@@ -95,7 +88,15 @@ export default function AnimatedBackground() {
     <animate attributeName="x" dur="25s" values="0%;25%;0%" repeatCount="indefinite" />
     <animate attributeName="y" dur="12s" values="0%;25%;0%" repeatCount="indefinite" />
     <animateTransform attributeName="transform" type="rotate" from="360 50 50" to="0 50 50" dur="9s" repeatCount="indefinite" />
-  </rect>
+</rect>
+<rect
+    x="-75%" y="-75%" width="250%" height="250%"
+    fill="url(#Gradient4)"
+    transform="rotate(210 50 50)">
+    <animate attributeName="x" dur="25s" values="0%;25%;0%" repeatCount="indefinite" />
+    <animate attributeName="y" dur="12s" values="0%;25%;0%" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="rotate" from="360 50 50" to="0 50 50" dur="9s" repeatCount="indefinite" />
+</rect>
   ]  
 </svg>
   </div>
