@@ -4,6 +4,12 @@
     display: block;
   }
 
+  .custom-navbar {
+    background-color: rgba(255, 255, 255, 0.6);  /* Transparent white */
+    backdrop-filter: blur(12px);                /* Optional, adds depth */
+    -webkit-backdrop-filter: blur(12px);        /* Safari support */
+    z-index: 1000;                               /* Make sure it's above the animated background */
+  }
 .navbar .nav-link {
     position: relative;
     color: #212529;
@@ -25,7 +31,7 @@
     left: 0;
     height: 2px;
     width: 0%;
-    background-color: #F27D72;
+    background-color: #8f3931;
     transition: width 0.25s ease-in-out;
   }
   
@@ -34,6 +40,17 @@
     width: 100%;
   }
   
+  .nav-link {
+    position: relative;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    transform: scale(1.05);
+  }
+
+  
+
   @media (max-width: 768px) {
     .navbar .nav-link {
         margin-left: 0 !important;

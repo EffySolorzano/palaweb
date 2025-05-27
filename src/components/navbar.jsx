@@ -5,7 +5,7 @@ import "./navbar.css";
 
 export default function Navbar() {
   return (
-    <BSNavbar expand="lg" bg="light" variant="light" sticky="top"  className="shadow-sm border-bottom ">
+    <BSNavbar expand="lg"  variant="light" sticky="top"  className="custom-navbar shadow-sm border-bottom ">
       <Container>
         <BSNavbar.Brand href="#">
         <img src={TempLogo} alt="Pa' la Web logo" className="navbar-logo" />
